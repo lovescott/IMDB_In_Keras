@@ -1,0 +1,20 @@
+{
+  "schema": {
+    "fields":[
+      {"metadata":{},"name":"CCN","nullable":true,"type":"integer"},
+      {"metadata":{},"name":"Email Address","nullable":true,"type":"string"},
+      {"metadata":{},"name":"Event Timestamp","nullable":true,"type":"string"},
+      {"metadata":{},"name":"Extract Timestamp","nullable":true,"type":"timestamp"}
+      ],
+      "type":"struct"
+    },
+  "source_name": "A15_DM_API_AUTHENTICATION_DETAIL",
+  "file_name_mask": "A15_DM_API_AUTHENTICATION_DETAIL_519041_20180919115235_FILE1.txt",
+  "file_validation_regex": "A15_DM_API_AUTHENTICATION_DETAIL_\\d+_\\d{14}_FILE\\d+\\.txt",
+  "filename_ts_regex": "A15_DM_API_AUTHENTICATION_DETAIL_\\d+_(\\d{14})_FILE\\d+\\.txt",
+  "filename_ts_format": "yyyyMMddhhmmss",
+  "file_type": "delimited",
+  "delimiter": "\\t",
+  "header": false,
+  "file_invalid_record_threshold": 0.0
+}
