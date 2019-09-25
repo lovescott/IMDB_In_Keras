@@ -1,0 +1,29 @@
+{
+  "schema": [
+    {"metadata":{},"name":"request_id","nullable":true,"type":"int"},
+    {"metadata":{},"name":"request_type_cd","nullable":true,"type":"string"},
+    {"metadata":{},"name":"vendor_cd","nullable":true,"type":"string"},
+    {"metadata":{},"name":"website_id","nullable":true,"type":"int"},
+    {"metadata":{},"name":"start_time","nullable":true,"type":"timestamp"},
+    {"metadata":{},"name":"end_time","nullable":true,"type":"timestamp"},
+    {"metadata":{},"name":"request_status_cd","nullable":true,"type":"string"},
+    {"metadata":{},"name":"request_exception_message","nullable":true,"type":"string"},
+    {"metadata":{},"name":"access_type_cd","nullable":true,"type":"string"},
+    {"metadata":{},"name":"channel_type_cd","nullable":true,"type":"string"},
+    {"metadata":{},"name":"preceding_request_id","nullable":true,"type":"int"},
+    {"metadata":{},"name":"orig_individual_id","nullable":true,"type":"int"},
+    {"metadata":{},"name":"individual_id","nullable":true,"type":"int"},
+    {"metadata":{},"name":"user_id","nullable":true,"type":"string"},
+    {"metadata":{},"name":"loyalty_id","nullable":true,"type":"string"},
+    {"metadata":{},"name":"last_rebuild_date","nullable":true,"type":"timestamp"}
+  ],
+  "source_name": "A15_DM_API_AUTHENTICATION_DETAIL",
+  "file_name_mask": "A15_DM_API_AUTHENTICATION_DETAIL_519041_20180919115235_FILE1.txt",
+  "file_validation_regex": "A15_DM_API_AUTHENTICATION_DETAIL_\\d+_\\d{14}_FILE\\d+\\.txt",
+  "filename_ts_regex": "A15_DM_API_AUTHENTICATION_DETAIL_\\d+_(\\d{14})_FILE\\d+\\.txt",
+  "filename_ts_format": "yyyyMMddhhmmss",
+  "file_type": "delimited",
+  "delimiter": "\\t",
+  "header": false,
+  "file_invalid_record_threshold": 0.0
+}
